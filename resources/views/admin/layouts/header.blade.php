@@ -23,7 +23,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <center>
-                        <li class="header">You have 1notifications</li>
+                        <li class="header">You have 1 notifications</li>
                         </center>
                         <li>
                             <!-- inner menu: contains the actual data -->
