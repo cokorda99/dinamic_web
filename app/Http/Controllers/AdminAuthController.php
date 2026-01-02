@@ -64,7 +64,7 @@ class AdminAuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'Img' => 'admin_profile.jpg',   // Set default value for the img column
+            'Img' => 'admin_default.png',   // Set default value for the img column
             'phone' => '-',                 // Set default value for the phone column
         ]);
     }
