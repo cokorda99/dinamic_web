@@ -7,6 +7,7 @@ use App\Models\Checkout;
 use App\Models\User;
 use App\Models\Product;
 use App\Models\Brand;
+use App\Models\GeneralSetting;
 
 
 class AdminDashboardController extends Controller
@@ -18,7 +19,8 @@ class AdminDashboardController extends Controller
             # code...
             //READ
             $title = 'Dashboard';
-            return view('admin.dashboard', compact('title'));
+            $setting = GeneralSetting::first();
+            return view('admin.dashboard', compact('title','setting'));
         }else{
             // Handle other methods
             return response()->json(['message' => 'Method not allowed'], 405);

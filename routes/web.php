@@ -12,6 +12,7 @@ use App\Http\Controllers\AdminDataController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\Admin\GeneralSettingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,6 +50,10 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
 
     // Dashboard
     Route::match(['GET'], 'dashboard', [AdminDashboardController::class, 'index']);
+    // Settings 
+    // General
+    Route::get('/settings_general', [GeneralSettingController::class, 'index']);
+    Route::post('/settings_general', [GeneralSettingController::class, 'update']);
 
     // Brands
     Route::match(['GET','POST' ,'PATCH'], 'brand', [BrandController::class, 'index'])->name('brands.index');

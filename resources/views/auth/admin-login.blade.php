@@ -32,6 +32,10 @@
                 </center>
             </div>
         </form>
+        <br>
+        <center>
+            <a href="/admin/register" class="text-center">Register Here</a>
+        </center>
     </div>
     <!-- /.login-box-body -->
 </div>
