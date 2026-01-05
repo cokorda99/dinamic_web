@@ -34,7 +34,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="/admin/settings_general"><i class="fa fa-circle-o"></i>General</a></li>
-                    <li><a href="/admin/settings/branding"><i class="fa fa-circle-o"></i>Branding</a></li>
+                    <li><a href="/admin/settings_branding"><i class="fa fa-circle-o"></i>Branding</a></li>
                     <li><a href="/admin/settings/seo"><i class="fa fa-circle-o"></i>SEO</a></li>
                     <li><a href="/admin/settings/integration"><i class="fa fa-circle-o"></i>Integrations</a></li>
                 </ul>
