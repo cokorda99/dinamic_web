@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>RuciGolf | @yield('title')</title>
+    <title>{{ $setting->site_name }} | @yield('title')</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('customer/img/ruci_logo.ico')}}" />
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">

@@ -7,19 +7,22 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
+use App\Models\GeneralSetting;
 
 class AdminAuthController extends Controller
 {
     // Menampilkan form login admin
     public function showLoginForm()
     {
-        return view('auth.admin-login');
+        $setting = GeneralSetting::first();
+        return view('auth.admin-login', compact('setting'));
     }
 
     // Menampilkan form registrasi admin
     public function showRegisterForm()
     {
-        return view('auth.admin-register');
+        $setting = GeneralSetting::first();
+        return view('auth.admin-register', compact('setting'));
     }
 
     // Menangani proses login admin

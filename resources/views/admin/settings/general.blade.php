@@ -21,10 +21,6 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="box">
-                    @if(session('success'))
-                    <div class="alert alert-success">{{ session('success') }}</div>
-                    @endif
-
                     <form action="{{ url('/admin/settings_general') }}" method="POST">
                         @csrf
 
