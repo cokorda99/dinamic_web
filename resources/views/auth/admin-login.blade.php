@@ -4,8 +4,8 @@
 
 <div class="login-box">
     <div class="login-logo">
-        <img src="../customer/img/ruci_logo.jpg" alt=""
-            style="width: 70px; height: 90px; margin-left: auto; margin-right: auto; display: block; border-radius: 10px;">
+        <img src="{{ asset('admin/img/logo_test.png')}}" alt=""
+            style="width: 100px; height:auto; margin-left: auto; margin-right: auto; display: block; border-radius: 10px;">
         <a href=""><b>Login</b>Admin</a>
     </div>
     <!-- /.login-logo -->
