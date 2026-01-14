@@ -21,7 +21,7 @@
        folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{ asset('admin/assets/dist/css/skins/_all-skins.min.css') }}">
     <!-- Morris chart -->
-    <link rel="stylesheet" href="{{ asset('admin/assets/bower_components/morris.js/morris.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('admin/assets/bower_components/morris.js/morris.css') }}"> -->
     <!-- jvectormap -->
     <link rel="stylesheet" href="{{ asset('admin/assets/bower_components/jvectormap/jquery-jvectormap.css') }}">
     <!-- Date Picker -->
@@ -91,7 +91,7 @@
     <script src="../admin/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Morris.js charts -->
     <script src="../admin/assets/bower_components/raphael/raphael.min.js"></script>
-    <script src="../admin/assets/bower_components/morris.js/morris.min.js"></script>
+    <!-- <script src="../admin/assets/bower_components/morris.js/morris.min.js"></script> -->
     <!-- Sparkline -->
     <script src="../admin/assets/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
     <!-- jvectormap -->
@@ -113,7 +113,7 @@
     <!-- AdminLTE App -->
     <script src="../admin/assets/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="../admin/assets/dist/js/pages/dashboard.js"></script>
+    <!-- <script src="../admin/assets/dist/js/pages/dashboard.js"></script> -->
     <!-- AdminLTE for demo purposes -->
     <script src="../admin/assets/dist/js/demo.js"></script>
     <!-- Custom JS -->
